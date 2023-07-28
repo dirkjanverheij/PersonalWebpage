@@ -3,98 +3,61 @@
 
 <head>
   <meta charset="utf-8">
-  <title>☠Dirkjan Verheij's personal website</title>
+  <title>Dirkjan Verheij</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/dirkjan_face_pic.jpg" alt="Dirkjan Verheij profile picture" width="200"></td>
-      <td>
-        <h1>Dirkjan Verheij</h1>
-        <p><em>PhD student at Instituto Superior Técnico</em></p>
-        <p>I am a PhD student at Instituto Superior Técnico, conducting my research at <a href="https://sites.google.com/site/inescmn/">INESC MN</a>
-          and <a href="http://www.ctn.tecnico.ulisboa.pt/ipfn/mpc.html">LATR</a>.
-          My areas of interest are nanotechnology, radiation physics, material science and engineering.
-          The topic of my PhD resarch consists in developing ionizing radiation sensors using GaN microwire building blocks</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Work experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <th>Date</th>
-      <th>Work</th>
-    </thead>
-    <tr>
-      <td>2017/01/01 - 2018/06/30</td>
-      <td>Research fellow at LATR/IPFN</td>
-    </tr>
-    <tr>
-      <td>2018/09/01 - present</td>
-      <td>PhD student in Engineering Physics</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Publications</h3>
-  <ul>
-    <li>"Self-powered proton detectors based on GaN core-shell p-n junction microwires",
-      D. Verheij et al., Appl. Phys. Lett. <strong>118</strong>, 193501 (2021); <em><a href="https://doi.org/10.1063/5.0045050">DOI</a></em></li>
-    <li>"Radiation sensors based on GaN microwires",
-      D. Verheij et al., J. Phys. D: Appl. Phys <strong>51</strong>, 175105 (2018); <em><a href="https://doi.org/10.1088/1361-6463/aab636">DOI</a></em></li>
-    <li>"Ion beam induced current mechanisms in GaN microwires",
-      D. Verheij et al., EPJ Web Conf. <strong>223</strong>, 05001 (2020); <em><a href="https://doi.org/10.1051/epjconf/202023305001">DOI</a></em></li>
-  </ul>
-  <hr>
-  <h3>Skills</h3>
-  <table border="1">
-    <tr>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Microfabrication </td>
-            <td>★★★★★</td>
-          </tr>
-          <tr>
-            <td>Deep learning </td>
-            <td>★★☆☆☆</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table cellspacing="10">
-          <tr>
-            <td>Electro-optical characterization </td>
-            <td>★★★★★</td>
-          </tr>
-          <tr>
-            <td>Python </td>
-            <td>★★★★☆</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Sports
-      <ul>
-        <li>Cycling</li>
-        <li>Football</li>
-        <li>American Football</li>
-      </ul>
-    </li>
-    <li>Reading
-      <ul>
-        <li>Tolkien</li>
-        <li>Romance</li>
-        <li>Learning</li>
-      </ul>
-    </li>
-  </ol>
-  <h3><a href="contact_me.html">Contact me</a></h3>
+  <div class="top_container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>The adventure lies only one step away from your door</h1>
+    <h2>Dirkjan Verheij, Phd in Engineering Physics</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/dirkjan_face_pic.png" alt="profile-pic" height="300px">
+      <h2>Hello.</h2>
+      <p class="intro-text">I am a PhD student at Instituto Superior Técnico, conducting my research at <a href="https://sites.google.com/site/inescmn/">INESC MN</a>
+        and <a href="http://www.ctn.tecnico.ulisboa.pt/ipfn/mpc.html">LATR</a>.
+        My areas of interest are nanotechnology, radiation physics, material science and engineering.
+        The topic of my PhD resarch consists in developing ionizing radiation sensors using GaN microwire building blocks</p>  </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="microfab-img" src="images/nanotechnology.png" alt="skill-1">
+        <h3>Microfabrication & nanotechnology</h3>
+        <p class="skills-par">I have broad experience in microfabrication processes and nanotechnology as a result of my work as researcher in a 10/100 clean room.</p>
+      </div>
+      <div class="skill-row">
+        <img class="prog-img" src="images/monitoring.png" alt="skill-2">
+        <h3>Programming</h3>
+        <p class="skills-par">Familiar with Python, Matlab, c++ and more. Currently I mainly use programming to write scipts for my PhD.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Do you have a question or proposal?</h3>
+      <p class="contact-text">You can contact me be sending an e-mail or by messaging me at one of the channels below</p>
+      <a class="btn" href="mailto:dverheij@inesc-mn.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/dirkjan-verheij-b8700b150/">LinkedIn</a>
+    <a class="footer-link" href="https://www.researchgate.net/profile/Dirkjan-Verheij">Research Gate</a>
+    <p class="copyright-text">© 2022 Dirkjan Verheij.</p>
+  </div>
 </body>
 
 </html>
