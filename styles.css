@@ -1,0 +1,37 @@
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Merriweather', serif; */
+  
+  .footer-icon {
+    font-size: 4rem;
+    padding: 0 5%;
+  }
+  
+  .copyright-par {
+    padding-top: 5%;
+  }
+
+  .email {
+    font-size: 1.5rem;
+  }
+
+  .personal_image {
+    border-radius: 15%;
+  }
+
+  #Skills-section img {
+    height: 30;
+    padding-right: 10;
+  }
+
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  small > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
